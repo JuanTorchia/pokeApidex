@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pokeApidex/static/css/main.d730aea6.chunk.css",
+    "main.css": "/pokeApidex/static/css/main.5f2cccba.chunk.css",
     "main.js": "/pokeApidex/static/js/main.f00d98f9.chunk.js",
     "main.js.map": "/pokeApidex/static/js/main.f00d98f9.chunk.js.map",
     "runtime-main.js": "/pokeApidex/static/js/runtime-main.4c867874.js",
@@ -10,7 +10,7 @@
     "static/js/2.9c85c54e.chunk.js.map": "/pokeApidex/static/js/2.9c85c54e.chunk.js.map",
     "index.html": "/pokeApidex/index.html",
     "static/css/2.5cfa816d.chunk.css.map": "/pokeApidex/static/css/2.5cfa816d.chunk.css.map",
-    "static/css/main.d730aea6.chunk.css.map": "/pokeApidex/static/css/main.d730aea6.chunk.css.map",
+    "static/css/main.5f2cccba.chunk.css.map": "/pokeApidex/static/css/main.5f2cccba.chunk.css.map",
     "static/js/2.9c85c54e.chunk.js.LICENSE.txt": "/pokeApidex/static/js/2.9c85c54e.chunk.js.LICENSE.txt",
     "static/media/pokemon-logo.17b2d8c1.svg": "/pokeApidex/static/media/pokemon-logo.17b2d8c1.svg",
     "static/media/pokemon_back.8b6f45e2.png": "/pokeApidex/static/media/pokemon_back.8b6f45e2.png"
@@ -19,7 +19,7 @@
     "static/js/runtime-main.4c867874.js",
     "static/css/2.5cfa816d.chunk.css",
     "static/js/2.9c85c54e.chunk.js",
-    "static/css/main.d730aea6.chunk.css",
+    "static/css/main.5f2cccba.chunk.css",
     "static/js/main.f00d98f9.chunk.js"
   ]
 }
