@@ -57,13 +57,14 @@ export default class Pokemon extends Component {
     // Urls for pokemon information
     const pokemonUrl = `https://pokeapi.co/api/v2/pokemon/${pokemonIndex}/`;
     const pokemonSpeciesUrl = `https://pokeapi.co/api/v2/pokemon-species/${pokemonIndex}/`;
+    const imageUrl = `https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/${pokemonIndex}.png?raw=true`;
 
     // Get Pokemon Information
     const pokemonRes = await Axios.get(pokemonUrl);
 
     const name = pokemonRes.data.name;
 
-    const imageUrl = pokemonRes.data.sprites.front_default;
+    // const imageUrl = pokemonRes.data.sprites.front_default;
 
     let { hp, attack, defense, speed, specialAttack, specialDefense } = '';
 
