@@ -68,7 +68,7 @@ export default class Pokemon extends Component {
 
     let { hp, attack, defense, speed, specialAttack, specialDefense } = '';
 
-    pokemonRes.data.stats.map(stat => {
+    pokemonRes.data.stats.forEach(stat => {
       switch (stat.stat.name) {
         case 'hp':
           hp = stat['base_stat'];
@@ -133,7 +133,7 @@ export default class Pokemon extends Component {
     // Get Pokemon Description .... Is from a different end point uggh
     await Axios.get(pokemonSpeciesUrl).then(res => {
       let description = '';
-      res.data.flavor_text_entries.some(flavor => {
+      res.data.flavor_text_entries.forEach(flavor => {
         if (flavor.language.name === 'en') {
           description = flavor.flavor_text;
           return;
@@ -225,6 +225,7 @@ export default class Pokemon extends Component {
                 <img
                   src={this.state.imageUrl}
                   className="card-img-top rounded mx-auto mt-2"
+                  alt={this.state.name}
                 />
               </div>
               <div className="col-md-9">
@@ -371,7 +372,8 @@ export default class Pokemon extends Component {
             </div>
             <div className="row mt-1">
               <div className="col">
-                <p className="">{this.state.description}</p>
+                <h5>Description: </h5>
+                <p className="text-left">{this.state.description}</p>
               </div>
             </div>
           </div>
@@ -466,7 +468,7 @@ export default class Pokemon extends Component {
           </div>
           <div class="card-footer text-muted">
             Data From{' '}
-            <a href="https://pokeapi.co/" target="_blank" className="card-link">
+            <a href="https://pokeapi.co/" target="_blank" rel="noreferrer" className="card-link">
               PokeAPI.co
             </a>
           </div>

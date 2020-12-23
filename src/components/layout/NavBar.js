@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import classnames from 'classnames';
+// import classnames from 'classnames';
 import banner from '../../pokemon-logo.svg';
 
 const Branding = styled.a`
