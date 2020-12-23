@@ -1,0 +1,35 @@
+.App {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-color: #fafafa;
+  padding-top: 4rem;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #ef5350 !important;
+}
+
+body {
+  background-color: transparent !important;
+}
+
+h5 {
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.card {
+  margin-top: 25px;
+}
+
+.search {
+  margin-top: 30px;
+}
+
+.button {
+  margin-left: 40%;
+  margin-bottom: 10%;
+  font-size: 2rem;
+}
