@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pokeApidex/static/css/main.5f2cccba.chunk.css",
-    "main.js": "/pokeApidex/static/js/main.f00d98f9.chunk.js",
-    "main.js.map": "/pokeApidex/static/js/main.f00d98f9.chunk.js.map",
+    "main.js": "/pokeApidex/static/js/main.dbd96dc7.chunk.js",
+    "main.js.map": "/pokeApidex/static/js/main.dbd96dc7.chunk.js.map",
     "runtime-main.js": "/pokeApidex/static/js/runtime-main.4c867874.js",
     "runtime-main.js.map": "/pokeApidex/static/js/runtime-main.4c867874.js.map",
     "static/css/2.5cfa816d.chunk.css": "/pokeApidex/static/css/2.5cfa816d.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.5cfa816d.chunk.css",
     "static/js/2.9c85c54e.chunk.js",
     "static/css/main.5f2cccba.chunk.css",
-    "static/js/main.f00d98f9.chunk.js"
+    "static/js/main.dbd96dc7.chunk.js"
   ]
 }
