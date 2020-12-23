@@ -1,15 +1,24 @@
 {
-  "main.css": "/ReactDex/static/css/main.3965dd95.chunk.css",
-  "main.js": "/ReactDex/static/js/main.a1a80ff9.chunk.js",
-  "main.js.map": "/ReactDex/static/js/main.a1a80ff9.chunk.js.map",
-  "static/css/1.edacc240.chunk.css": "/ReactDex/static/css/1.edacc240.chunk.css",
-  "static/js/1.cc789908.chunk.js": "/ReactDex/static/js/1.cc789908.chunk.js",
-  "static/js/1.cc789908.chunk.js.map": "/ReactDex/static/js/1.cc789908.chunk.js.map",
-  "runtime~main.js": "/ReactDex/static/js/runtime~main.bf8c3a74.js",
-  "runtime~main.js.map": "/ReactDex/static/js/runtime~main.bf8c3a74.js.map",
-  "static/css/1.edacc240.chunk.css.map": "/ReactDex/static/css/1.edacc240.chunk.css.map",
-  "static/css/main.3965dd95.chunk.css.map": "/ReactDex/static/css/main.3965dd95.chunk.css.map",
-  "index.html": "/ReactDex/index.html",
-  "precache-manifest.a0a9b663cd0462955f8e9d955a5082f2.js": "/ReactDex/precache-manifest.a0a9b663cd0462955f8e9d955a5082f2.js",
-  "service-worker.js": "/ReactDex/service-worker.js"
+  "files": {
+    "main.css": "/pokeApidex/static/css/main.a1a5e277.chunk.css",
+    "main.js": "/pokeApidex/static/js/main.c9ef3d22.chunk.js",
+    "main.js.map": "/pokeApidex/static/js/main.c9ef3d22.chunk.js.map",
+    "runtime-main.js": "/pokeApidex/static/js/runtime-main.4c867874.js",
+    "runtime-main.js.map": "/pokeApidex/static/js/runtime-main.4c867874.js.map",
+    "static/css/2.5cfa816d.chunk.css": "/pokeApidex/static/css/2.5cfa816d.chunk.css",
+    "static/js/2.9c85c54e.chunk.js": "/pokeApidex/static/js/2.9c85c54e.chunk.js",
+    "static/js/2.9c85c54e.chunk.js.map": "/pokeApidex/static/js/2.9c85c54e.chunk.js.map",
+    "index.html": "/pokeApidex/index.html",
+    "static/css/2.5cfa816d.chunk.css.map": "/pokeApidex/static/css/2.5cfa816d.chunk.css.map",
+    "static/css/main.a1a5e277.chunk.css.map": "/pokeApidex/static/css/main.a1a5e277.chunk.css.map",
+    "static/js/2.9c85c54e.chunk.js.LICENSE.txt": "/pokeApidex/static/js/2.9c85c54e.chunk.js.LICENSE.txt",
+    "static/media/pokemon-logo.17b2d8c1.svg": "/pokeApidex/static/media/pokemon-logo.17b2d8c1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c867874.js",
+    "static/css/2.5cfa816d.chunk.css",
+    "static/js/2.9c85c54e.chunk.js",
+    "static/css/main.a1a5e277.chunk.css",
+    "static/js/main.c9ef3d22.chunk.js"
+  ]
 }
