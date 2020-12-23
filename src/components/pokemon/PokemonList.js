@@ -61,10 +61,11 @@ export default class PokemonList extends Component {
         ) : (
           <Loading />
         )}
-        
+        <div className="footer_button">
         {!this.state.loading &&(
-            <button onClick={() => this.fetchCharacters()}>Load More</button>
+            <span className="button_cont"><button className="button__load" onClick={() => this.fetchCharacters()}>More Pokemons +</button></span>
           )}
+        </div>
       </div>
     ) ;
   }

@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
 
-import backgroundImage from './pattern.png';
+import backgroundImage from './pokemon_back.png';
 
 import NavBar from './components/layout/NavBar';
 import Dashboard from './components/layout/Dashboard';
