@@ -18,8 +18,8 @@ class App extends Component {
       <Router>
         <div className="App" style={{ background: `url(${backgroundImage})` }}>
           <NavBar />
-          <SearchBar />
           <div className="container">
+          <SearchBar />
             <Switch>
               <Route exact path="/" component={Dashboard} />
               <Route exact path="/pokemon/:pokemonIndex" component={Pokemon} />

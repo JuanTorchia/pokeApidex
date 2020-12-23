@@ -10,8 +10,7 @@ export default class PokemonList extends Component {
     url: 'https://pokeapi.co/api/v2/pokemon/?offset=0&limit=20',
     // url: `https://pokeapi.co/api/v2/pokemon/?offset=${this.state.offset}&limit=${this.state.limit}`,
     pokemon: null,
-    offset: 0,
-    limit: 0
+    nextPage: 20
   };
 
 
@@ -26,15 +25,13 @@ export default class PokemonList extends Component {
 
 
     try {
-    const res = await axios.get(`https://pokeapi.co/api/v2/pokemon/?offset=0&limit=20`);
+    const res = await axios.get(`https://pokeapi.co/api/v2/pokemon/?offset=0&limit=${this.state.nextPage}`);
     
 
     this.setState({
-      loading: true,
+      loading: false,
       pokemon: res.data['results'],
-      offset: this.state.offset + 20,
-      limit: this.state.limit + 20
-
+      nextPage: this.state.nextPage + 20
 
       });
     } catch (error) {
@@ -65,7 +62,7 @@ export default class PokemonList extends Component {
           <Loading />
         )}
         
-        {!this.state.loading && this.state.res.info.next && (
+        {!this.state.loading &&(
             <button onClick={() => this.fetchCharacters()}>Load More</button>
           )}
       </div>
